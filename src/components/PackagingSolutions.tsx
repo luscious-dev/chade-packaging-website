@@ -97,7 +97,7 @@ export default function PackagingSolutions() {
       <div className="flex">
         {tabs.map((item, i) => (
           <div
-            className={`p-5 transition basis-1.5 font-bold grow text-center border 
+            className={`p-5 cursor-pointer hover:bg-[#0E91A1] transition basis-1.5 font-bold grow text-center border 
                     ${i != tabs.length - 1 ? "border-r-0" : ""} 
                     ${curTab == item ? "bg-[#0E91A1] border-b-0" : ""}`}
             onClick={() => setTabState(item)}
