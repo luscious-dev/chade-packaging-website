@@ -41,9 +41,9 @@ export default function Header() {
           </Link>
           <Link
             className="text-[18px] transition-all hover:text-[#146c78] border-transparent border-b-2 hover:border-[#146c78]"
-            href={"#team"}
+            href={"#about"}
           >
-            Team
+            About
           </Link>
           <Link
             className="text-[18px] transition-all hover:text-[#146c78] border-transparent border-b-2 hover:border-[#146c78]"
