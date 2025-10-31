@@ -3,26 +3,24 @@ import SVGIcons from "./icons/SVGIcons";
 
 export default function TeamSection() {
   return (
-    <div className="bg-[#E2F5F2] py-20">
+    <div id="team" className="bg-[#E2F5F2] py-20">
       <div className="max-w-[1440px] px-10 m-auto">
-        <div className="text-center max-w-[915px] m-auto mb-[110px]">
-          <h3 className="text-[24px] text-[#146C78] font-semibold mb-1">
+        <div className="text-center max-w-[915px] m-auto mb-[50px] md:mb-[65px] lg:mb-[90px]">
+          <h3 className="text-[18px] sm:text-[20px] lg:text-[24px] text-[#146C78] font-semibold mb-1">
             Team
           </h3>
-          <h2 className="text-[48px] text-[#007626] font-bold mb-3">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-[#007626] font-bold mb-3">
             Our experts
           </h2>
-          <p className="text-[24px] text-[#007626] font-semibold">
+          <p className="text-[18px] sm:text-[20px] lg:text-[24px] text-[#007626] font-semibold">
             Passionate professionals driving packaging innovation
           </p>
         </div>
 
         <div className="flex justify-between items-center flex-col">
-          <Image
+          <img
             src={`/img/expert.jpg`}
-            className="mb-6"
-            width={600}
-            height={600}
+            className="mb-6 h-[450px] lg:h-[600px]"
             alt="expert"
           />
           <div className="text-center">

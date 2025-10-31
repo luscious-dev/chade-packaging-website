@@ -14,11 +14,11 @@ export default function OurClientsSection() {
   return (
     <div className="bg-[#E2F5F2] py-20">
       <div className="max-w-[1440px] px-10 m-auto">
-        <div className="text-center max-w-[915px] m-auto mb-[90px]">
-          <h2 className="text-[48px] text-[#007626] font-bold mb-3">
+        <div className="text-center max-w-[915px] m-auto mb-[45px] lg:mb-[90px]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-[#007626] font-bold mb-3">
             Some of our clients
           </h2>
-          <p className="text-[24px] text-[#007626] font-semibold">
+          <p className="text-[18px] sm:text-[20px] lg:text-[24px] text-[#007626] font-semibold">
             Our top clients we’ve worked with in the industry.
           </p>
         </div>

@@ -22,9 +22,9 @@ export default function WhyChooseUs() {
 
   return (
     <div className="bg-[#7DCE94] py-20">
-      <div className="max-w-[1440px] flex gap-20 justify-between px-10 m-auto">
-        <div className="text-cp-primary w-[50%]">
-          <h2 className="text-[#146C78] text-[50px] w-[270px] leading-none font-bold mb-3">
+      <div className="max-w-[1440px] flex flex-col md:flex-row gap-10 lg:gap-20 justify-between px-10 m-auto">
+        <div className="text-cp-primary w-full lg:w-[50%]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-[#146C78] w-[270px] leading-none font-bold mb-3">
             Why choose us?
           </h2>
           <p className="text-[20px] mb-10 max-w-[550px]">
@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
                   <SVGIcons.SaveIcon />
                 </div>
                 <div>
-                  <h2 className="text-[28px] leading-none mb-3 text-[#146C78] font-semibold">
+                  <h2 className="text-[20px] sm:text-[24px] lg:text-[28px] leading-none mb-3 text-[#146C78] font-semibold">
                     {item.title}
                   </h2>
                   <p>{item.content}</p>
@@ -47,17 +47,10 @@ export default function WhyChooseUs() {
               </div>
             </div>
           ))}
-
-          <Link
-            className="px-5 bg-transparent text-cp-primary py-2 border-[3px] border-[#146C78] text-xl"
-            href={"#"}
-          >
-            Contact
-          </Link>
         </div>
 
         <div
-          className="bg-no-repeat relative overflow-clip bg-cover bg-center rounded-3xl h-[640px] w-[600px]"
+          className="bg-no-repeat relative overflow-clip bg-cover bg-center rounded-3xl h-[450px] lg:h-[640px] w-full lg:w-[600px]"
           style={{
             backgroundImage: `url("/img/why-choose-us.jpg")`,
           }}

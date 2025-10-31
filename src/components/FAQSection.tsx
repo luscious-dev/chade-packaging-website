@@ -29,11 +29,11 @@ export default function FAQSection() {
   return (
     <div className="bg-cp-secondary py-20">
       <div className="max-w-[1440px] px-10 m-auto">
-        <div className="text-cp-primary text-center max-w-[915px] m-auto mb-20">
-          <h2 className="text-[48px] max-w-[700px] m-auto font-bold mb-3">
+        <div className="text-cp-primary text-center max-w-[915px] m-auto mb-10 lg:mb-20">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl max-w-[700px] m-auto font-bold mb-3">
             FAQs
           </h2>
-          <p className="text-[24px] font-semibold">
+          <p className="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold">
             Quick answers to common questions about our packaging services
           </p>
         </div>
@@ -42,9 +42,9 @@ export default function FAQSection() {
           {data.map((item) => (
             <div
               key={item.question}
-              className="p-10  flex flex-col gap-5 bg-white border border-cp-tertiary"
+              className="p-4 flex flex-col gap-3 bg-[#E2F5F2] border border-cp-tertiary"
             >
-              <h3 className="font-bold">{item.question}</h3>
+              <h3 className="font-bold text-sm">{item.question}</h3>
               <p>{item.answer}</p>
             </div>
           ))}

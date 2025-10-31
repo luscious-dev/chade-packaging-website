@@ -94,32 +94,45 @@ export default function PackagingSolutions() {
 
   return (
     <div className="bg-[#E2F5F2]">
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         {tabs.map((item, i) => (
           <div
-            className={`p-5 cursor-pointer hover:bg-[#0E91A1] transition basis-1.5 font-bold grow text-center border 
-                    ${i != tabs.length - 1 ? "border-r-0" : ""} 
-                    ${curTab == item ? "bg-[#0E91A1] border-b-0" : ""}`}
-            onClick={() => setTabState(item)}
             key={item}
+            onClick={() => setTabState(item)}
+            className={`
+        p-2 text-sm lg:p-5 cursor-pointer transition font-bold text-center border
+        hover:bg-[#0E91A1] 
+        ${curTab == item ? "bg-[#0E91A1] border-b-0" : ""}
+        ${i != tabs.length - 1 ? "lg:border-r-0" : ""}
+        
+        flex-[1_1_auto]
+        truncate
+        overflow-hidden 
+        text-ellipsis
+        whitespace-nowrap
+      `}
           >
             {item}
           </div>
         ))}
       </div>
-      <div className="flex items-center transition-all justify-between p-10">
+      <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row items-center transition-all justify-between p-10">
         <div>
           <div className=" max-w-[650px]">
-            <h3 className="text-sm text-[20px] font-bold mb-[15px]">
+            <h3 className="text-[16px] sm:text-[18px] lg:text-[20px] font-bold mb-[15px]">
               {curTab.toUpperCase()}
             </h3>
-            <h2 className="text-5xl font-bold mb-5">{curTabDetail.header}</h2>
-            <p className="text-2 font-semibold ">{curTabDetail.content}</p>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5">
+              {curTabDetail.header}
+            </h2>
+            <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-semibold ">
+              {curTabDetail.content}
+            </p>
           </div>
         </div>
 
         <div
-          className={`rounded-3xl bg-cover bg-no-repeat bg-center w-[40%] h-[550px]`}
+          className={`rounded-3xl bg-cover bg-no-repeat bg-center w-[95%] sm:w-[70%] lg:w-[40%] h-[400px] lg:h-[550px]`}
           style={{ backgroundImage: `url(${curTabDetail.image})` }}
         ></div>
       </div>

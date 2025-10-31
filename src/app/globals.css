@@ -20,3 +20,27 @@
 
 @media (prefers-color-scheme: dark) {
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.open-backdrop {
+  opacity: 1;
+  z-index: 90;
+}
+
+.open-modal {
+  transform: translateY(0);
+  z-index: 100;
+}
+
+.close-backdrop {
+  opacity: 0;
+  z-index: -20;
+}
+
+.close-modal {
+  transform: translateY(-1000px);
+  z-index: -30;
+}

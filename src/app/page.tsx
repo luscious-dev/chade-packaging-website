@@ -8,6 +8,8 @@ import TeamSection from "@/components/TeamSection";
 import WhatOurClientsSaySection from "@/components/WhatOurClientsSaySection";
 import OurClientsSection from "@/components/OurClientsSection";
 import FAQSection from "@/components/FAQSection";
+import ContactUsSection from "@/components/ContactUsSection";
+import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
   return (
@@ -41,6 +43,12 @@ export default function Home() {
 
       {/* FAQs Section */}
       <FAQSection />
+
+      {/* Contact Us Section */}
+      <ContactUsSection />
+
+      {/* Footer Section */}
+      <FooterSection />
     </>
   );
 }
