@@ -13,7 +13,7 @@ export default function PackagingSolutions() {
     "Strip Label",
     "Carrier/Shopping Bags",
     "Refuse Bags",
-    "Fomo Packs",
+    "Fomo Packs/Take Away",
     "Bottle Cover",
     "Disposable Cup",
     "Bread Nylon",
@@ -46,11 +46,11 @@ export default function PackagingSolutions() {
         "We produce refuse bags built to handle waste with efficiency, durability, and hygiene in mind. Our bags are crafted from high-quality materials that resist tears and leaks, ensuring a cleaner and more convenient disposal experience. Whether for households, offices, or industrial environments, our refuse bags provide dependable performance while supporting sustainable waste practices.",
       image: "/img/packaging/trash-bag.jpg",
     },
-    "Fomo Packs": {
+    "Fomo Packs/Take Away": {
       header: "Smart packaging for fresh and secure meals.",
       content:
         "At CHADE, our fomo packs are designed to keep food fresh, safe, and visually appealing. Crafted from high-quality, food-grade foam materials, they provide excellent insulation for both hot and cold meals. Whether used in restaurants, takeout services, or food deliveries, our fomo packs combine durability with convenience — ensuring your products reach customers in perfect condition while maintaining hygiene and presentation.",
-      image: "/img/packaging/fomo.jpg",
+      image: "/img/packaging/fomo.png",
     },
     "Bottle Cover": {
       header: "Protection that seals in quality.",
