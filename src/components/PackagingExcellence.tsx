@@ -5,7 +5,7 @@ export default function PackagingExcellence() {
         <div
           className="bg-no-repeat relative overflow-clip bg-cover bg-center h-[450px] lg:h-[640px] w-full lg:w-[600px]"
           style={{
-            backgroundImage: `url("/img/five-years.png")`,
+            backgroundImage: `url("/img/five-years.jpg")`,
           }}
         >
           <div className="absolute inset-0 bg-black/40"></div>

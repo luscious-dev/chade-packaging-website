@@ -19,7 +19,7 @@ export default function ServicesSection() {
       title: "Precision engineering in every package",
       content:
         "We combine technical expertise with creative design to deliver packaging that meets the highest industry standards.",
-      image: "/img/services/precision-engineering.png",
+      image: "/img/services/precision-engineering.jpg",
     },
   ];
 

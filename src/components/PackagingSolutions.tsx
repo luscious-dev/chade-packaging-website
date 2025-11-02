@@ -26,7 +26,7 @@ export default function PackagingSolutions() {
       header: "Crafting packaging solutions for modern businesses",
       content:
         "We understand packaging is more than containers. It's communication, protection, and brand identity rolled into one powerful product.",
-      image: "/img/packaging/bottle-pre-form.jpg",
+      image: "/img/packaging/bottle-preform.jpg",
     },
     "Strip Label": {
       header: "Precision, identity, and durability in every detail.",
@@ -68,7 +68,7 @@ export default function PackagingSolutions() {
       header: "Freshness you can see, quality you can feel.",
       content:
         "Our bread nylon packaging is crafted to preserve taste, texture, and freshness from production to the customer’s table. Made from premium, food-safe materials, each nylon offers excellent clarity, strength, and sealing properties. Whether for local bakeries or large-scale distributors, our packaging ensures your bread stays protected, appealing, and ready to enjoy — every single time.",
-      image: "/img/packaging/bread-nylon.png",
+      image: "/img/packaging/bokku-nylon.jpg",
     },
     "Cling Films": {
       header: "Sealing freshness with precision and clarity.",
