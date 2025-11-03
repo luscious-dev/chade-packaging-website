@@ -44,7 +44,12 @@ export default function FooterSection() {
 
           <div className="flex gap-4">
             <SVGIcons.FacebookIcon />
-            <SVGIcons.InstagramIcon />
+            <a
+              href="https://www.instagram.com/p/C_3xVvEOxzW/?igsh=MXhnZ3JwbnpjZ3ZxdA=="
+              target="_blank"
+            >
+              <SVGIcons.InstagramIcon />
+            </a>
             <SVGIcons.XIcon />
             <SVGIcons.LinkedInIcon />
           </div>
