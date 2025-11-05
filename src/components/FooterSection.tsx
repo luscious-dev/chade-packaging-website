@@ -51,7 +51,13 @@ export default function FooterSection() {
               <SVGIcons.InstagramIcon />
             </a>
             <SVGIcons.XIcon />
-            <SVGIcons.LinkedInIcon />
+            <a
+              href="http://www.linkedin.com/in/charles-adegoke"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SVGIcons.LinkedInIcon />
+            </a>
           </div>
         </div>
 

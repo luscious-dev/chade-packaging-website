@@ -35,7 +35,13 @@ export default function TeamSection() {
               dynamics.
             </p>
             <div className="flex gap-5 justify-center">
-              <SVGIcons.LinkedInIcon />
+              <a
+                href="http://www.linkedin.com/in/charles-adegoke"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SVGIcons.LinkedInIcon />
+              </a>
               <SVGIcons.XIcon />
             </div>
           </div>
